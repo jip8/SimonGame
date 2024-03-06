@@ -59,7 +59,7 @@ function Start(){
                 
                 setTimeout(function() {
                     $this.css("background-color", color).removeClass("pressed");
-                }, 100);
+                }, 50);
                 
                 if (n !== sequencia[cont]) {
                     Reset();
@@ -74,7 +74,7 @@ function Start(){
                     setTimeout(function() {
                         AddSequencia();
                         waiting = false; 
-                    }, 300);
+                    }, 200);
                 }
             }));
         })(i);
